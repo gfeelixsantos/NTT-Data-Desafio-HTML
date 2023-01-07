@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+.wrapper li a {
+    
+    color: white;
+    
+    
+}
+
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(5, 108, 108);
+    padding: 10px 20px 0px;
+    margin-top: 220px;
+    font-size: 20px;
+    text-align: right;
+  
+}
+
+menu li {
+    margin-top:100px;
+}
+
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    
+   
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.footer {
+    
+    min-height: 150px;
+    
+}
+
+.imagem {
+    border-radius: 30%;
+    width: 15%;
+    border: solid 2px rgba(5, 108, 108, .5);
+    align-items: flex-end;
+    display: block;
+    margin-bottom: 30px;
+    margin: auto;
+    
+}
+
+.imagem:hover{
+    width: 20%;
+}
+
+
+.nome-clinica{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 300px;
+    
+    
+}
+
+.titles {
+    color: rgb(5, 108, 108);
+    text-align: center;
+}
+
+.text-simple{
+    text-align: justify;
+    font-size: 22px;
+}
+
+.text-footer{
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+
+.icon {
+    width: 3%;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    width: 700px;
+    border: solid 1px rgb(5, 108, 108);
+    margin: auto;
+    font-size: 22px;
+
+}
+
+.table tr th {
+    background-color: rgb(5, 108, 108);
+    color: white;
+    
+}
+
+.table tr td {
+    text-align: center;
+}
+
+.especialidades {
+    text-align: center;
+    list-style: none;
+}
+
+#botao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-options {
+    margin-top: 180%;
+    font-size: 15px;
+    list-style: none;
+    padding: 0px;
+}
+
+#imagem-topo{
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.fundo-menu li:hover{
+    
+    font-size: 22px;
+}
+
+ul {
+    list-style: none;
+}
+
